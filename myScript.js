@@ -189,11 +189,9 @@ document.addEventListener("DOMContentLoaded", () => {
             completeButton.addEventListener("click", () => {
                 taskText.classList.toggle("completedAddedTasks");
                 completeButton.classList.toggle("completedButton");
-                if (completeButton.textContent === "Complete") {
-                    completeButton.textContent = "Completed";
-                } else {
-                    completeButton.textContent = "Complete";
-                }
+                 completeButton.textContent = completeButton.classList.contains("completedButton")
+                    ? "Completed"
+                    : "Complete";
             })
 
             // DELETE TASK BUTTON:
@@ -313,6 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 // -------------------------------------
+
 
 
 
