@@ -456,8 +456,8 @@ footer p {
         display: none;
     }
 
-    footer.contact {
-        margin-left: 0;
+    footerp {
+        margin-left: -2rem;
     }
 
 }
@@ -625,6 +625,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
