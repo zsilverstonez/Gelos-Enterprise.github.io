@@ -602,12 +602,11 @@ select {
     display: inline-block;
     width: 100%;
     padding: 0.5rem 0.75rem;
-    border-radius: 999px;
     /* pill shape */
-    border: 1px solid #dfe3e8;
-    background: #f6f7f9;
-    color: #111;
-    font-size: 16px;
+    border: 1px solid #ccc;
+    background: #F8F9FA;
+    color: #1a1a1a;
+    font-size: 1rem;
     /* prevents iOS zoom */
     font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
     line-height: 1.4;
@@ -623,13 +622,6 @@ select {
     /* room for arrow */
 }
 
-/* Optional hover/focus effect */
-input[type="date"]:focus,
-select:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
-}
 
 
 
