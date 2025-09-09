@@ -404,6 +404,11 @@ footer p {
      .footer contact {
         margin-left: -4rem;
     }
+
+    .footer p {
+        margin: 0;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -624,6 +629,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
