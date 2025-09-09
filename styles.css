@@ -561,10 +561,12 @@ footer p {
     padding: 0 0.5rem;
     border-radius: 6px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .completeButton {
     background-color: #24a0ed;
+    touch-action: manipulation;
 }
 
 .completeButton:hover {
@@ -595,4 +597,5 @@ footer p {
 #contact-received-message {
     color: #DDAB5E;
     font-style: italic;
+
 }
