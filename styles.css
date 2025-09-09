@@ -401,14 +401,17 @@ footer p {
         text-align: center;
     }
 
-     .footer contact {
-        margin-left: -4rem;
+    .footer .contact {
+        text-align: center;
     }
 
     .footer p {
         margin: 0;
     }
 
+    .respect-speech {
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -458,12 +461,17 @@ footer p {
     button.add-task {
         width: 100%;
         padding: 0.6rem;
-        box-sizing: border-box; 
+        box-sizing: border-box;
     }
 
     .map-address {
         display: none;
     }
+
+    .respect-speech {
+        padding: 2rem;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -629,17 +637,3 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
