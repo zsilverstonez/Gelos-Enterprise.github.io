@@ -332,6 +332,7 @@ footer {
     width: 20rem;
     height: auto;
     margin-right: 4rem;
+    margin-bottom: 1rem;
 }
 
 .footer-divider {
@@ -638,5 +639,6 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
