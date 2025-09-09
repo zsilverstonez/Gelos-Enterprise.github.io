@@ -447,6 +447,7 @@ footer p {
     #due-date,
     #priority,
     button.add-task {
+        width: 100%;
         padding: 0.6rem;
     }
 
@@ -590,3 +591,4 @@ footer p {
     color: #DDAB5E;
     font-style: italic;
 }
+
