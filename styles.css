@@ -569,10 +569,6 @@ footer p {
     background-color: #24a0ed;
 }
 
-.completeButton:hover {
-    background-color: #107e19;
-}
-
 .completedAddedTasks {
     color: #107e19;
     text-decoration: line-through;
@@ -580,10 +576,6 @@ footer p {
 
 .completeButton.completedButton {
     background-color: #107e19;
-}
-
-.completeButton.completedButton:hover {
-    background-color: #24a0ed;
 }
 
 .deleteButton {
