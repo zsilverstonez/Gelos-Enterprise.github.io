@@ -569,7 +569,7 @@ footer p {
     touch-action: manipulation;
 }
 
-.completeButton:hover:not(.completedButton) {
+.completeButton:not(.completedButton):hover {
     background-color: #107e19;
 }
 
@@ -599,4 +599,5 @@ footer p {
     font-style: italic;
 
 }
+
 
