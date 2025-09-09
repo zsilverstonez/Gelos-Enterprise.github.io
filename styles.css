@@ -602,7 +602,6 @@ select {
     display: inline-block;
     width: 100%;
     padding: 0.5rem 0.75rem;
-    border-radius: 999px;
     /* pill shape */
     border: 1px solid #ccc;
     background: #F8F9FA;
@@ -622,6 +621,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
