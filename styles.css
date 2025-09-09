@@ -411,7 +411,7 @@ footer p {
     }
 
     .respect-speech {
-        padding: 1rem;
+        padding: 0;
     }
 }
 
@@ -638,4 +638,5 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
