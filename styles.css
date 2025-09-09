@@ -569,8 +569,12 @@ footer p {
     touch-action: manipulation;
 }
 
-.completeButton:not(.completedButton):hover {
+.completeButton:hover {
     background-color: #107e19;
+}
+
+.completeButton.active {
+    background-color: #24a0ed;
 }
 
 .completedAddedTasks {
@@ -586,6 +590,10 @@ footer p {
     background-color: #24a0ed;
 }
 
+.completeButton.completedButton.active {
+    background-color: #107e19;
+}
+
 .deleteButton {
     background-color: #DDAB5E;
 }
@@ -599,5 +607,6 @@ footer p {
     font-style: italic;
 
 }
+
 
 
