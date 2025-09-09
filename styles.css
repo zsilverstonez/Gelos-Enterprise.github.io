@@ -457,7 +457,7 @@ footer p {
     }
 
     footerp {
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
 
 }
@@ -625,6 +625,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
