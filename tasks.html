@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <script src="myScript.js" defer></script>
+    <title>Gelos Task Manager</title>
+</head>
+
+<body>
+    <header>
+        <div class="Geslo-logo-header">
+            <a href="index.html"><img src="/images/Gelos-logo.png" alt="Gelos-logo" id="Gelos-logo" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="tasks"><a href="tasks.html" class="active">Tasks</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main class="tasks">
+        <img src="/images/banner-tasks.jpg" alt="banner-tasks" class="images" />
+        <form id="task-form" action="#" method="post">
+            <h1 class="task-manager">Task Manager</h1>
+            <fieldset class="tasks">
+                <input type="text" id="task-name" placeholder="Task Name" required />
+                <div id="taskNameErr" class="error"></div>
+                <textarea id="task-note" placeholder="Add Note"></textarea>
+                <div id="taskNoteErr" class="error"></div>
+                <input type="date" id="due-date" required />
+                <div id="taskDueDateErr" class="error"></div>
+                <select id="priority" required>
+                    <option value="" disabled selected>Priority</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+                <div id="taskPriorityErr" class="error"></div>
+                <button type="submit" class="add-task">Add Task</button>
+            </fieldset>
+        </form>
+        <div id="added-tasks"></div>
+        <button type="button" onclick="return darkTheme()" class="darkTheme">Change Theme</button>
+    </main>
+    <div class="bottom-color1"></div>
+    <div class="bottom-color2"></div>
+    <footer>
+        <div class="footer-top">
+            <img src="/images/Gelos-logo_footer.png" alt="Gelos-logo-footer" id="Gelos-logo-footer" />
+            <div class="footer-divider"></div>
+            <div class="contact">
+                <p><strong>Get in contact with us</strong></p>
+                <p>P: (02) 0000 0000</p>
+                <p>E: contactus@gelosmail.com</p>
+                <p>A: 111 Business Avenue, TULITZA NSW 9460</p>
+            </div>
+        </div>
+
+        <div class="respect-speech">
+            Gelos Enterprises would like to pay our respect and acknowledge Aboriginal and Torres Strait Islander
+            Peoples as
+            the Traditional Custodians of the land, rivers and sea. We acknowledge and pay our respect to the Elders,
+            both
+            past and present of all Nations.
+        </div>
+    </footer>
+</body>
+
+
+</html>

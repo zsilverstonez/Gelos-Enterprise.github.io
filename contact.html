@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <script src="myScript.js" defer></script>
+    <title>Gelos Task Manager</title>
+</head>
+
+<body>
+    <header>
+        <div class="Geslo-logo-header">
+            <a href="index.html"><img src="/images/Gelos-logo.png" alt="Gelos-logo" id="Gelos-logo" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="tasks"><a href="tasks.html">Tasks</a></li>
+                <li class="contact"><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <img src="/images/banner-contact.jpg" alt="banner-contact" class="images" />
+        <form id="contact-form" action="#" method="post">
+            <h1 class="contact-header">Contact Us</h1>
+            <div class="contact-divider">
+                <fieldset class="contact">
+                    <input type="text" id="contact-name" placeholder="Full Name" required />
+                    <div id="contactNameErr" class="error"></div>
+                    <input type="text" id="contact-phone-number" placeholder="Phone Number" />
+                    <div id="contactPhoneErr" class="error"></div>
+                    <input type="email" id="contact-email" placeholder="Email" required />
+                    <div id="contactEmailErr" class="error"></div>
+                    <textarea id="contact-message" placeholder="Please leave your message" required></textarea>
+                    <div id="contactMessageErr" class="error"></div>
+                    <button type="submit" class="send-us">Send Us</button>
+                    <p id="contact-received-message"></p>
+                </fieldset>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6741987.472504416!2d143.82352334813515!3d-34.40169997016332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1295180d71a849%3A0xe09004f12e3aa631!2sGelos%20Enterprise!5e0!3m2!1sen!2sau!4v1753757570909!5m2!1sen!2sau"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map-address"></iframe>
+            </div>
+        </form>
+    </main>
+    <div class="bottom-color1"></div>
+    <div class="bottom-color2"></div>
+    <footer>
+        <div class="footer-top">
+            <img src="/images/Gelos-logo_footer.png" alt="Gelos-logo-footer" id="Gelos-logo-footer" />
+            <div class="footer-divider"></div>
+            <div class="contact">
+                <p><strong>Get in contact with us</strong></p>
+                <p>P: (02) 0000 0000</p>
+                <p>E: contactus@gelosmail.com</p>
+                <p>A: 111 Business Avenue, TULITZA NSW 9460</p>
+            </div>
+        </div>
+
+        <div class="respect-speech">
+            Gelos Enterprises would like to pay our respect and acknowledge Aboriginal and Torres Strait Islander
+            Peoples as
+            the Traditional Custodians of the land, rivers and sea. We acknowledge and pay our respect to the Elders,
+            both
+            past and present of all Nations.
+        </div>
+    </footer>
+</body>
+
+
+</html>
