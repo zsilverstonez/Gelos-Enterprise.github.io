@@ -400,6 +400,10 @@ footer p {
         gap: 1rem;
         text-align: center;
     }
+
+     .footer p {
+        margin-left: -4rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -455,11 +459,6 @@ footer p {
     .map-address {
         display: none;
     }
-
-    footerp {
-        margin-left: -8rem;
-    }
-
 }
 
 @media (max-width: 1200px) {
@@ -625,6 +624,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
