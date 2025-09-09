@@ -1,6 +1,3 @@
-// STUDENT NAME: THANG MINH BUI (BLAKE)
-// STUDENT NUMBER: 881579220
-// -------------------------------------
 
 // HAMBURGER MENU TOGGLE
 // USE .querySelector TO GET THE FIRST ELEMENT THAT MATCH A GIVEN CSS SELECTOR
@@ -316,6 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 // -------------------------------------
+
 
 
 
