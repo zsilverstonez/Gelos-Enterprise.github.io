@@ -453,6 +453,11 @@ footer p {
     .map-address {
         display: none;
     }
+
+    .completeButton:hover,
+    .completeButton.completedButton:hover {
+        background-color: unset;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -573,10 +578,6 @@ footer p {
     background-color: #107e19;
 }
 
-.completeButton.active {
-    background-color: #24a0ed;
-}
-
 .completedAddedTasks {
     color: #107e19;
     text-decoration: line-through;
@@ -590,10 +591,6 @@ footer p {
     background-color: #24a0ed;
 }
 
-.completeButton.completedButton.active {
-    background-color: #107e19;
-}
-
 .deleteButton {
     background-color: #DDAB5E;
 }
@@ -605,8 +602,4 @@ footer p {
 #contact-received-message {
     color: #DDAB5E;
     font-style: italic;
-
 }
-
-
-
