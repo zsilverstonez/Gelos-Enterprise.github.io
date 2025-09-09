@@ -401,7 +401,7 @@ footer p {
         text-align: center;
     }
 
-     .footer p {
+     .footer contact {
         margin-left: -4rem;
     }
 }
@@ -624,6 +624,7 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
+
 
 
 
