@@ -73,7 +73,6 @@ nav ul li a.active {
 }
 
 nav ul.show {
-    display: flex;
     z-index: 8;
 }
 
@@ -402,13 +401,9 @@ footer p {
         text-align: center;
     }
 
-    .footer .contact {
-        text-align: center;
-    }
-
     footer p {
         margin: 0;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 
     .respect-speech {
@@ -440,9 +435,23 @@ footer p {
         margin-top: 1.8rem;
     }
 
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 0.75rem 1rem;
+    }
+
     nav ul li a:hover,
     nav ul li a.active {
         border-bottom: none;
+    }
+
+    nav ul li a:hover {
+        color: #F8F9FA;
+    }
+
+    nav ul li:hover {
+        background-color: #24a0ed;
     }
 
     .hamburger-menu {
@@ -639,6 +648,3 @@ select {
     padding-right: 2em;
     /* room for arrow */
 }
-
-
-
