@@ -391,10 +391,6 @@ footer p {
         width: 90%;
     }
 
-    footer .contact {
-        text-align: center;
-    }
-
     .footer-top {
         flex-direction: column;
         gap: 1rem;
@@ -404,6 +400,10 @@ footer p {
     footer p {
         margin: 0;
         margin-left: -3rem;
+    }
+
+    footer .contact {
+        align-items: center;
     }
 
     .respect-speech {
@@ -480,6 +480,20 @@ footer p {
         display: none;
     }
 
+    #Gelos-logo-footer {
+        align-items: center;
+        width: 15rem;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .contact {
+        align-items: left;
+        margin: 0;
+        padding: 0;
+    }
+
     .respect-speech {
         padding: 2rem;
     }
@@ -517,12 +531,6 @@ footer p {
 
     .footer-divider {
         display: none;
-    }
-
-    .logo-footer,
-    footer .contact {
-        text-align: left;
-        margin: 0;
     }
 
     .respect-speech {
